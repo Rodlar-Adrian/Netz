@@ -1,0 +1,41 @@
+.titulo{
+    text-align: center;
+    padding-bottom: 19px;
+    
+}
+
+.container-paquetes{
+display: flex;
+justify-content: center;
+background-color: #f4f4f4;
+border-color: #daeded;
+}
+
+
+
+
+section{
+  display: flex; 
+   width: 600px;
+   height: 430px;
+   border-color: #ffffff;
+}
+
+section img{
+    width: 0px;
+    flex-grow: 2;
+    object-fit: cover;
+    opacity: .5;
+    transition: 2s ease;
+    border-style: hidden;
+    border-radius: 8px;
+    
+}
+
+section img:hover{
+cursor: crosshair;
+width: 300px;
+opacity: 1;
+filter: contrast(120%);
+
+}
